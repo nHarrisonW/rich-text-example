@@ -1,0 +1,41 @@
+@import '../../../styles.scss'; //import $eerie, $khaki, $border, $tech, $xanthous
+
+
+::ng-deep{
+
+    .body-content{
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6{
+            margin: 20px 0;
+            padding: 0;
+        }
+
+        p{
+            line-height: 110%;
+            padding-bottom: 20px;
+        }
+        h1{
+            
+        }
+        h2{
+            
+        }
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 498px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            background: $xanthous;
+            padding: 12px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+    }
+}

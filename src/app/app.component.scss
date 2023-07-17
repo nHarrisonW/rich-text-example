@@ -1,0 +1,21 @@
+
+@import '../styles.scss'; //import $eerie, $khaki, $border, $tech, $xanthous
+
+
+.nav-parent{
+    .links{
+        color: white;
+        margin-right: 10px;
+    }
+    button{
+        border: $border;
+        background: none;
+        color: white;
+        transition: ease-in-out 200ms;
+        &:hover{
+            background: #ffffff15;
+        }
+
+    }
+    // justify-content: space-around;
+}
